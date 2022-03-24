@@ -13,7 +13,7 @@ APP=TRG_it
 
 # 4. Add any headers your program depends on here. The make program
 #    will auto-detect if these headers have changed and recompile your app.
-HEADERS=myclass.h CDiag.h
+HEADERS=complex_bessel.h complex_def.h
 
 
 # 5. For any additional .cc files making up your project,

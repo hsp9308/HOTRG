@@ -63,6 +63,9 @@ int main(int argc, char* argv[])
 }
 
 
+
+// This code performs all of HOTRG process in a single functions.
+
 complex<double> Z_HOTRG(complex<double> K, complex<double> h, int dcut, int L)
 {
 	Cplx B = K;
@@ -106,6 +109,7 @@ complex<double> Z_HOTRG(complex<double> K, complex<double> h, int dcut, int L)
 	auto y2p = i;
 	auto xx1 = i;
 
+	// Variable arrangement not performed.. :(
 
 	// Defining the local tensor for XY model. 
 	for(auto s1: range(d0))
@@ -137,7 +141,7 @@ complex<double> Z_HOTRG(complex<double> K, complex<double> h, int dcut, int L)
 
 	double dxn, dyn;
 	
-	// End of definition of local tensor
+	// End of definition of local tensor for XY model
 
 
 	auto Tn = ITensor(x1,y1,x2,y2);
