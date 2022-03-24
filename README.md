@@ -8,6 +8,8 @@
 2. How to compile 
 
 (1) Install the libraries above (make sure that Intel MKL is correctly linked in the ITensor installation)
+
 (2) modify the Makefile;
 correct the variable LIBRARY_DIR to one's itensor installation directory.
+
 (3) Done! run 'make'. 
