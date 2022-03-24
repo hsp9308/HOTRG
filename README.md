@@ -1,6 +1,6 @@
 1. Libraries needed
 
-- ITensor ver 2 (https://github.com/ITensor/ITensor)
+- ITensor ver.2 (https://github.com/ITensor/ITensor)
  (Used in the Fisher zero calculation and later YLzero calculation.)
 - Complex bessel function (https://github.com/joeydumont/complex_bessel)
 - Intel MKL 2017, 2018 (Not certain for the later versions.)
