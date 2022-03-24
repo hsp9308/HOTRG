@@ -13,3 +13,11 @@
 correct the variable LIBRARY_DIR to one's itensor installation directory.
 
 (3) Done! run 'make'. 
+
+3. What is opt.py ?
+
+opt.py finds the partition function zero by taking output complex number of './TRG_it' and minimize a function of partition function. 
+
+So you may run 'python opt.py' to find the zeros with Nelder-Mead method.
+
+You need to set the initial position of parameters (here, (x1, y1) as a complex temperature). 
